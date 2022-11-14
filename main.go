@@ -17,7 +17,7 @@ func main() {
 	defer dbConnection.Close() // menutup koneksi
 
 	//buat mekanisme menu
-	fmt.Println("MENU:\n1. Baca data\n2. Tambah data\n3. Register\n4. login\n5. Update User")
+	fmt.Println("MENU:\n1. Baca data\n2. Tambah data\n3. Register\n4. login\n5. Update User") // conflict =  ada perubahan di code yg sama
 	fmt.Println("Masukkan pilihan anda:")
 	var pilihan int
 	fmt.Scanln(&pilihan)
