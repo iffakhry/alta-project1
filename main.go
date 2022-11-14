@@ -17,7 +17,7 @@ func main() {
 	defer dbConnection.Close() // menutup koneksi
 
 	//buat mekanisme menu
-	fmt.Println("MENU:\n1. Baca data\n2. Tambah data")
+	fmt.Println("MENU:\n1. Baca data\n2. Tambah data\n4. login")
 	fmt.Println("Masukkan pilihan anda:")
 	var pilihan int
 	fmt.Scanln(&pilihan)
@@ -75,7 +75,7 @@ func main() {
 
 	case 4:
 		{
-			fmt.Println("delete")
+			fmt.Println("login")
 		}
 
 	case 5:
