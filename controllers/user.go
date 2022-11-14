@@ -29,3 +29,7 @@ func GetAllUser(db *sql.DB) ([]entities.User, error) {
 func InsertData(db *sql.DB, newData entities.User) {
 
 }
+
+func Register(db *sql.DB, newData entities.User) {
+
+}
