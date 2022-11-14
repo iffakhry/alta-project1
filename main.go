@@ -71,6 +71,8 @@ func main() {
 	case 3:
 		{
 			fmt.Println("register")
+			fmt.Println("error handling")
+
 		}
 
 	case 4:
