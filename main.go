@@ -18,6 +18,7 @@ func main() {
 
 	//buat mekanisme menu
 	fmt.Println("MENU:\n1. Baca data\n2. Tambah data\n4. login")
+	fmt.Println("MENU:\n1. Baca data\n2. Tambah data\n3. Register")
 	fmt.Println("Masukkan pilihan anda:")
 	var pilihan int
 	fmt.Scanln(&pilihan)
@@ -70,7 +71,9 @@ func main() {
 		}
 	case 3:
 		{
-			fmt.Println("update")
+			fmt.Println("register")
+			fmt.Println("error handling")
+
 		}
 
 	case 4:
